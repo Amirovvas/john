@@ -1,0 +1,22 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 640px) {
+  #header {
+    .header {
+      a {
+        display: none;
+      }
+      span {
+        display: block;
+      }
+    }
+  }
+}
+@media (max-width: 475px) {
+}
