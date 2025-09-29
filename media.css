@@ -1,4 +1,11 @@
 @media (max-width: 1200px) {
+  #footer {
+    .footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }
 
 @media (max-width: 1024px) {
@@ -23,7 +30,7 @@
       align-items: center;
       text-align: center;
       gap: 25px;
-      button{
+      button {
         align-self: center;
       }
     }
@@ -48,16 +55,15 @@
     display: none;
   }
 
-  #posts{
-    .posts-topp{
+  #posts {
+    .posts-topp {
       justify-content: center;
       text-align: center;
     }
-    .posts1{
+    .posts1 {
       flex-direction: column;
       padding: 10px;
     }
-    
   }
 }
 @media (max-width: 475px) {

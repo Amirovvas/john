@@ -110,7 +110,7 @@ span {
 }
 
 #post {
-  padding-block: 60px;
+  padding-block: 30px;
   background: #edf7fa;
   .post {
     display: flex;
@@ -172,7 +172,8 @@ span {
 }
 
 footer {
-  padding-block: 70px;
+  padding-block: 50px;
   display: flex;
   justify-content: center;
+  
 }
