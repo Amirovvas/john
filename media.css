@@ -1,5 +1,4 @@
 @media (max-width: 1200px) {
-
 }
 
 @media (max-width: 1024px) {
@@ -16,6 +15,49 @@
         display: block;
       }
     }
+  }
+
+  #hero {
+    .hero {
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+      gap: 25px;
+      button{
+        align-self: center;
+      }
+    }
+  }
+  #post {
+    .post {
+      .post-top {
+        justify-content: center;
+        text-align: center;
+        a {
+          display: none;
+        }
+      }
+      .post-bottom {
+        flex-direction: column;
+        gap: 25px;
+      }
+    }
+  }
+  #post-two,
+  #post-three {
+    display: none;
+  }
+
+  #posts{
+    .posts-topp{
+      justify-content: center;
+      text-align: center;
+    }
+    .posts1{
+      flex-direction: column;
+      padding: 10px;
+    }
+    
   }
 }
 @media (max-width: 475px) {
